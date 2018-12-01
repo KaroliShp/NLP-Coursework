@@ -1,0 +1,9 @@
+First confusing feature that I myself encountered is the fact that the statements grammar is rather limited.
+For example, this is not a valid statement: John is an orange duck. You have to make two statements for that.
+This could be solved by improving the grammar for statements (I don't think this is a 'major improvement')
+This wouldn't be hard to implement and basically only the statement parsing part would be a bit different.
+
+Another thing is the "ambiguity" or all possible parse trees. I think probability as it was discussed
+in the lectures (this could be extended to be a PCFG) could be applied when ambiguity
+(two or more possible trees) is encountered. Then one of the ambiguous trees could be chosen
+instead of just reporting that the sentence is ambiguous.
