@@ -39,16 +39,20 @@ You can try it out by downloading ```semantics.py``` (make sure you have ```nltk
 $ python semantics.py
 ```
 
-It was developed using ```Python 2.7.5```, so will not work for newer versions (like ```3.x```)
+It was developed using ```Python 2.7.5```, so may not work for newer versions (```3.x```)
 
 ## Implementation
 
-Two main ideas were used in the coursework: CTF grammars and lambda calculus.
+Two main ideas were used in the coursework: Context-free grammars (CFG) and lambda calculus.
 
-The solution uses CTF (context-free grammar) for processing statements and questions, for example:
+The solution uses CFG for processing statements and questions, for example:
 
 ```
 Sentence -> P (Proper Noun) BEs (is, are) AR (article) N (Noun)
 ```
 
 Syntactic parse trees are generated for each sentence, which are then given mathematical meaning using lambda calculus (for example ```Who is a duck?``` would translate to ```λx.Is_Duck(x)```). Lambda expressions can then be executed according to the fact base that is gathered from user input.
+
+## Credits
+
+The coursework was prepared by the professors of the University of Edinburgh (as can be seen in code comments)
