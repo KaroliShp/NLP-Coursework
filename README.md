@@ -19,16 +19,16 @@ $$ Mary is a frog.
 $$ John likes Mary.
   OK
 
-&& Who does John like?
+$$ Who does John like?
   Mary
 
-&& Who likes Mary?
+$$ Who likes Mary?
   John
 
-&& Which orange duck likes a frog?
+$$ Which orange duck likes a frog?
   John
   
-&& Who likes John?
+$$ Who likes John?
   No one :'(
 
 ```
